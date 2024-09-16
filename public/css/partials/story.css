@@ -1,0 +1,49 @@
+.story {
+  width: 100%;
+  height: 170px;
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    .swiper-story {
+      width: inherit;
+      height: inherit;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;
+      align-items: center;
+      row-gap: 10px;
+      cursor: pointer;
+      .swiper-story-img {
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        object-fit: cover;
+        outline: 2px solid rgb(170, 4, 170);
+        outline-offset: 3px;
+      }
+      .swiper-story-p {
+        font-family: var(--fontfamily);
+        font-size: 11px;
+        width: 90px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

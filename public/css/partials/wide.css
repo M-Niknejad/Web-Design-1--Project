@@ -1,0 +1,16 @@
+.wide {
+  width: 98.5%;
+  height: 167px;
+  margin: 15px auto;
+  .wide-a {
+    width: 100%;
+    height: inherit;
+    text-decoration: none;
+    .wide-a-img {
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+  }
+}

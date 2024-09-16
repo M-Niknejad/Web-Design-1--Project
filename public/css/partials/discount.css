@@ -1,0 +1,15 @@
+.discount{
+    width: 98%;
+    height: 241.5px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    .discount-img{
+        height: inherit;
+        width: 23.5%;
+        object-fit: cover;
+        border-radius: 5%;
+    }
+}

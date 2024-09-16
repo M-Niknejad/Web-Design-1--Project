@@ -1,0 +1,61 @@
+.digiclub {
+  width: 98.5%;
+  height: 88px;
+  border-radius: 15px;
+  background-image: linear-gradient(to left, #007295, #35a6c8);
+  margin: 15px auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-items: center;
+  .digiclub-title {
+    width: 119px;
+    height: 33px;
+    object-fit: contain;
+    margin-right: 40px;
+    margin-left: 320px;
+    /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(64deg)
+      brightness(160%) contrast(100%); */
+  }
+  .digiclub-main {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-items: center;
+    height: 65px;
+    column-gap: 5px;
+
+    .digiclub-main-item {
+      width: 275px;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff;
+      padding: 2px 17px 2px 2px;
+
+      .digiclub-main-item-svg {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+      }
+      .digiclub-main-item-span {
+        font-family: var(--fontfamily);
+        font-size: 12px;
+        margin-right: 8px;
+      }
+      .digiclub-main-item-img {
+        width: 168px;
+        height: 60px;
+        object-fit: cover;
+      }
+    }
+    div:first-of-type {
+      border-radius: 0 7px 7px 0;
+    }
+    div:last-of-type {
+      border-radius: 7px 0 0 7px;
+    }
+  }
+}

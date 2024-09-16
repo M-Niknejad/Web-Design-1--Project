@@ -1,0 +1,46 @@
+.button {
+  
+  .button-right {
+    width: 48px;
+    height: 48px;
+    background-color: #ef4056;
+    border-radius: 50%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 50px;
+    bottom: 35px;
+    z-index: 99999;
+    .button-right-img {
+      width: 24px;
+      height: 24;
+    }
+  }
+  .button-left {
+    width: 130px;
+    height: 52px;
+    background-color: #029a49;
+    border-radius: 25px;
+    padding: 10px 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+   
+    position: fixed;
+    left: 17px;
+    bottom: 35px;
+    z-index: 99999;
+    .button-left-p {
+      font-family: var(--fontfamily);
+      font-size: 15px;
+      color: #ffffff;
+    }
+    .button-left-img {
+      width: 40px;
+      object-fit: contain;
+    }
+  }
+}

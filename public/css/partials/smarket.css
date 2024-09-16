@@ -1,0 +1,105 @@
+.smarket {
+  height: 110px;
+  width: 98%;
+  background-color: #e9eeec;
+  margin: 15px auto;
+  border-radius: 15px;
+  .smarket-a {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    .smarket-a-div1 {
+      width: 465px;
+      height: 62px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 37px;
+      .smarket-a-div1-img1 {
+        width: 66px;
+        height: 62px;
+        object-fit: cover;
+      }
+      .smarket-a-div1-img2 {
+        width: 250px;
+      }
+      .smarket-a-div1-p {
+        width: 110px;
+        height: 30px;
+        background-color: #029a49;
+        border-radius: 15px;
+        color: #fff;
+        text-decoration: none;
+        font-family: var(--fontfamily);
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+      }
+    }
+    .smarket-a-div2 {
+      margin-right: 150px;
+      column-gap: 8px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      .smarket-a-div2-div1 {
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        background-color: #fff;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        .smarket-a-div2-div-img {
+          width: 50px;
+          height: 50px;
+          object-fit: cover;
+        }
+        .smarket-a-div2-div2 {
+          width: 35px;
+          height: 20px;
+          background-color: #d32f2f;
+          border-radius: 10px;
+          color: #fff;
+          font-family: nazanin;
+          font-size: 14px;
+          font-weight: bold;
+          text-align: center;
+          line-height: 20px;
+          position: absolute;
+          top: 60px;
+          right: 5px;
+        }
+      }
+    }
+    .smarket-a-div3 {
+      width: 140px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 25px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      column-gap: 5px;
+      margin-right: 10px;
+      .smarket-a-div3-span {
+        font-family: var(--fontfamily);
+        font-size: 12px;
+        color: #029a49;
+        font-weight: 600;
+      }
+      .smarket-a-div3-img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

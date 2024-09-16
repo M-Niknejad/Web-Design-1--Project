@@ -1,0 +1,16 @@
+.half {
+  width: 99%;
+  height: 265px;
+  margin: 15px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+  .half-img {
+    height: 264px;
+    width: 655px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+}
