@@ -3,20 +3,23 @@
   margin: 0;
   border: none;
   box-sizing: border-box;
+
+  outline: 0;
+  scroll-behavior: smooth;
 }
 :root {
   --fontfamily: IranYekan;
   --fontfamil: yekanplus;
-  ::-webkit-scrollbar{
+  ::-webkit-scrollbar {
     width: 8px;
     background-color: #f0f0f1;
   }
-  ::-webkit-scrollbar-thumb{
+  ::-webkit-scrollbar-thumb {
     width: inherit;
     background-color: #c0c2c5;
   }
-
 }
+
 @font-face {
   font-family: IranYekan;
   src: url(../fonts/fa/IRANYekanWeb.woff), url(../fonts/fa/IRANYekanWeb.woff2),
@@ -28,9 +31,8 @@
     url(../fonts/fa/BNazanin.TTF), url(../fonts/fa/BNazanin.eot);
 }
 @font-face {
-  font-family: yekanplus;
-  src: url(../fonts/fa/YEKANPLUS.woff), url(../fonts/fa/YEKANPLUS.woff2),
-    url(../fonts/fa/YEKANPLUS.eot), url(../fonts/fa/YEKANPLUS.TTF);
+  font-family: cube;
+  src: url(../fonts/fa/cube-v7.9.woff);
 }
 .wrapper {
   width: 100%;
